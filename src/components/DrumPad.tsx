@@ -5,6 +5,7 @@ import {updateLastPlayed} from "../store/drumSlice.ts";
 import React, {useEffect} from "react";
 
 type DrumPadProps = {
+  id: string
   inputKey: string;
   soundName: string;
   audioFile: string;
